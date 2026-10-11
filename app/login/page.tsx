@@ -1,5 +1,9 @@
+"use client";
+
+import React from "react";
 
 export default function LoginPage() {
+
   const handleSubmit = (e) => {
     e.preventDefault();
     window.location.href = "/dashboard";
